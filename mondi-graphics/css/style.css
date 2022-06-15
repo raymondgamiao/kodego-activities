@@ -1,0 +1,224 @@
+/*bootstarp overrides*/
+html{
+    scroll-behavior: smooth;
+}
+/*buttons */
+.btn-outline-primary{
+    border-color: #0f1821;
+    color: #0f1821;
+}
+.btn-outline-primary:hover{
+    border-color: #0f1821;
+    background-color: #0f1821;
+    color: #e4c489 !important;
+}
+.btn-outline-secondary{
+    border-color: #e4c489;
+    color: #e4c489;
+}
+.btn-outline-secondary:hover{
+    border-color: #e4c489;
+    background-color: #e4c489;
+    color: #0f1821;
+}
+.btn-login{
+    border-color: #0f1821;
+    background-color: #0f1821;
+    color: #e4c489 !important;
+}
+.btn-login:hover{
+    border-color: #0f1821;
+    color: #0f1821;
+    background-color: #0c0c0b;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  color: #0f1821;
+  border-color: #0f1821;
+  background-color: #e4c489;
+
+}
+#btn-back-to-top:hover {
+    color: #e4c489;
+    border-color: #e4c489;  
+    background-color: #0f1821;
+}
+
+#btn-services {
+  position: fixed;
+  bottom: 20px;
+  left: 60px;
+  z-index: 1;
+
+  height: 35px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  color: #0f1821;
+  border-color: #0f1821;
+  background-color: #e4c489;
+
+}
+#btn-services:hover {
+    color: #e4c489;
+    border-color: #e4c489;  
+    background-color: #0f1821;
+}
+
+
+@media (max-width: 850px) {
+    .btnservice{
+        width: 100%;
+    }
+  }
+/* nav bar */
+ .loginbtn, .registerbtn{
+    width: 100px;
+}
+
+/*carousel */
+/* @media (max-width: 576px) {
+    .carousel-caption {
+      background-color: #e4c489;
+      opacity: 0.8;
+      color: #0f1821;
+    }
+  } */
+
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    z-index: 1;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: #0f1821;
+    border: 10px solid #0f1821;
+    border-radius: 50%;
+}
+
+/* services */
+.project img:hover{
+    background-color: rgba(228, 196, 137, 0.5 );
+}
+.services_sidebar a{
+    color: #444;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.services_sidebar a:hover{
+    color: #e4c489;
+    text-decoration: none;
+}
+
+/* login */
+.login_bg{
+    background-image: radial-gradient(rgba(228, 196, 137, 0.8), rgba(234, 177, 72, 0.8));
+    background-size: cover;
+}
+/* contact hero */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact_hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-text {
+    color: #0f1821;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.4)), url("../images/contact_illustration.png");
+    background-size: cover;
+  }
+  /* @media (max-width: 576px) {
+    .contact-text {
+      color: #0f1821;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.4)), url("../images/contact_illustration.png");
+      background-size: cover;
+    }
+  }
+@media (max-width: 767px) {
+    .contact-text {
+      color: #0f1821;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.4)), url("../images/contact_illustration.png");
+      background-size: cover;
+    }
+  }
+ */
+/* about */
+.about .checkmark{
+    color: #e4c489;
+}
+
+/* testimonial */
+.bg-yellow{
+    background-color: #e4c489;
+}
+.testimonial_image{
+    max-height: 12rem;
+}
+.testimonial_container{
+    height: 100%;
+}
+.testimonials .fa-quote-left{
+    color: #e4c489;
+    position: relative;
+}
+
+/* footer */
+.footer-title{
+    color: #e4c489;
+}
+.footer{
+    background-color: #0f1821;
+}
+.footer p{
+    color: #ffffff;
+}
+/*
+.footer .btn {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    vertical-align:middle;
+}
+*/
+.footer .btn{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    color: #e4c489;
+    border-color: #e4c489;
+}
+.footer .btn:hover{
+    color: #0f1821;
+    border-color: #0f1821;
+    background-color: #e4c489;
+}
+.credits, .credits a {
+    color: #0f1821;
+    text-decoration: none;
+    font-size: x-small;
+}
